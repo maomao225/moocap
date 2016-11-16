@@ -1,9 +1,5 @@
 # moocap 前台项目
 
-### 后端api文档
-
-http://confluence.xuetangx.com/pages/viewpage.action?pageId=6732196
-
 ### 基础架构
 
 * style用sass编写
