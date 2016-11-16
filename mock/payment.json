@@ -1,0 +1,3 @@
+{
+    "pay_url": "https://mapi.alipay.com/gateway.do?seller_email=&service=create_direct_pay_by_user&_input_charset=utf-8&sign=9561c97dd7d67ebf4776664433d7029b&out_trade_no=1601141355571&payment_type=1&total_fee=200.00&sign_type=MD5&notify_url=&partner=&return_url=&subject=12345"
+}

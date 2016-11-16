@@ -1,0 +1,7 @@
+<component-header :rel="pageName"></component-header>
+<div class="container page-{{pageName}}">
+    <h1>{{type}}</h1>
+    <h6><em></em>{{type === '500' ? '服务器出错啦！休息一会儿吧！':'抱歉，出现错误了' }}</h6>
+    <p>{{{type === '500' ? count + '秒后页面自动跳转到MOOCAP首页，如未跳转，请点击返回' + linktext : '您所访问的页面不存在或已被管理员删除！您可以返回'+linktext+'查看更多感兴趣的内容。'}}}</p>
+</div>
+<component-footer></component-footer>

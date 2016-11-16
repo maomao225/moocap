@@ -1,0 +1,37 @@
+{
+    "id": 13,
+    "city": {
+        "id": 2,
+        "name": "123s啊3啊"
+    },
+    "province": {
+        "id": 3,
+        "name": "西藏"
+    },
+    "exam_city": {
+        "id": 10,
+        "name": "的人"
+    },
+    "exam_province": {
+        "id": 3,
+        "name": "西藏"
+    },
+    "gender": "女",
+    "school": {
+        "id": 1,
+        "name": "测试学校1"
+    },
+    "date_joined": "2015-12-28 10:56:00+00:00",
+    "created": "2016-01-13T08:08:04.070972Z",
+    "modified": "2016-01-22T06:00:28.811248Z",
+    "name": "麻辣鸡",
+    "avatar": "",
+    "gaokao_year": "2016",
+    "identity_type": "护照312",
+    "identity": "",
+    "phone": "18660379270",
+    "parent_phone": "18601684121",
+    "email":"metogo@qq.com",
+    "can_modify": true,
+    "user": 1
+}

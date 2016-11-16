@@ -1,0 +1,9 @@
+{
+	"order_number" : 123,
+	"user_name" : "用户1",
+	"exam_card_num" :"12312312",
+	"identity_type" :"身份证",
+	"user_identity" :"370101",
+	"exam_name" :"考试1",
+	"exam_score" :"80"
+}

@@ -1,0 +1,31 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "title": "xfsdafdsa",
+            "image" : "http://placehold.it/185x105",
+            "created": "2016-01-17T05:00:16.802883Z",
+            "modified": "2016-01-17T05:00:16.802998Z",
+            "abstract": "11月28日，“高水平大学人才培养与基础教育的衔接”高峰论坛暨中国慕课大学先修课（MOOCAP）启动仪式在清华大学举行，MOOCAP理事会正式成立，MOOCAP课程全面启动。",
+            "news_from": "清华新闻网 2015年12月2日",
+            "link": "http://news.tsinghua.edu.cn/publish/news/4204/2015/20151130090704010350726/20151130090704010350726_.html",
+            "order": 1,
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "title": "xfsdafdsa",
+            "image" : "http://placehold.it/185x105",
+            "created": "2016-01-17T05:00:31.442717Z",
+            "modified": "2016-01-17T05:00:31.442851Z",
+            "abstract": "日前，由全国40余所高水平大学和重点中学联合发起的中国慕课大学先修课，在清华大学正式启动。这究竟是新一轮“掐尖”，还是提升教育质量的内生需求？当MOOC（大规模在线开放课程）碰上大学先修课，两个时下最流行的教育形态相互交织，会有哪些改变？",
+            "news_from": "《光明日报》2015年12月03日 05版",
+            "link": "http://epaper.gmw.cn/gmrb/html/2015-12/03/nw.D110000gmrb_20151203_1-05.htm",
+            "order": 2,
+            "is_active": true
+        }
+    ]
+}

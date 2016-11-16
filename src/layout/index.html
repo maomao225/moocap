@@ -1,0 +1,48 @@
+<component-header :rel="pageName"></component-header>
+<component-banner :rel="pageName"></component-banner>
+<div class="page-{{pageName}}">
+
+    <section>
+    	<div class="container">
+    		<div class="block-announcement">
+    			<h6 class="block-title">通知公告<a href="{{vars.announcement}}" class="more">[更多]</a></h6>
+    			<home-announcement></home-announcement>
+    		</div>
+    		<div class="block-member">
+    			<h6 class="block-title">会员学校<a href="{{vars.member}}" class="more">[更多]</a><a href="{{vars.member}}#!/apply" class="amend">想要申请加入会员?</a></h6>
+    			<home-member></home-member>
+    		</div>
+    	</div>
+    </section>
+
+	<section>
+    	<div class="container">
+    		<div class="block-course">
+	    		<h6 class="block-title">MOOCAP课程<a href="{{vars.course}}" class="more">[更多]</a></h6>
+	    		<home-course></home-course>
+    		</div>
+    	</div>
+    </section>
+
+    <section>
+    	<div class="container">
+    		<div class="block-news">
+    			<h6 class="block-title">新闻报道</h6>
+    			<news></news>
+    		</div>
+    		<div class="block-director">
+    			<h6 class="block-title">理事成员</h6>
+    			<director></director>
+    		</div>
+    	</div>
+    </section>
+
+    <section>
+    	<div class="container">
+		  <h6 class="block-title">常见问题<a href="{{vars.problems}}" class="more">[更多]</a></h6>
+    	  <help></help>
+    	</div>
+    </section>
+</div>
+<component-footer></component-footer>
+

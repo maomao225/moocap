@@ -1,0 +1,195 @@
+@import 'normalize.css/normalize';
+@import './varibles';
+@import './mixin';
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background:$bg;
+    font-family:arial,Helvetica Neue,tahoma,"Hiragino Sans GB",Microsoft YaHei,\5b8b\4f53;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    @include wrapper;
+
+    clear:both;
+    
+    .page-title{
+        text-align: center;
+        color: $main-color;
+        font-size:$font-title;
+        font-weight: normal;
+        padding:0;
+        margin:57px 0;
+    }
+}
+
+.common-loading{
+    background:url(http://storage.xuetangx.com/public_assets/xuetangx/images/72616b2cdfd92f6d779cd51c5630a16b.loading.gif) no-repeat center center;
+}
+
+.page-home{
+    @include screenHeight;
+    >section{
+        padding: 35px 0;
+        overflow: hidden;
+
+        // 首页section间与footer间距问题
+        &:last-child{
+            margin-bottom: -40px;
+        }
+
+        &:nth-child(even){
+            background:$bg;
+        }
+
+        .block-title{
+            color: $main-color;
+            font-size:$font-large;
+            padding-bottom: 30px;
+            line-height: 1;
+            font-weight: bold;
+
+            .more{
+                vertical-align: bottom;
+                font-size:$font-small;
+                margin-left: 15px;
+                @include hover;
+            }
+        }
+
+        .block-announcement{
+            width: 600px;
+            float: left;
+        }
+
+        .block-director{
+            overflow: hidden;
+        }
+
+        .block-member{
+            overflow: hidden;
+            position: relative;
+
+            .amend{
+                position: absolute;
+                right:20px;
+                top:8px;
+                color:$main-color;
+                text-decoration: underline;
+                font-size:$font-small;
+            }
+        }
+
+        .block-news{
+            width: 820px;
+            float: left;
+        }
+    }
+}
+
+.page-announcement{
+    @include screenHeight;
+}
+
+.page-course{
+    @include screenHeight;
+    overflow: hidden;
+    border:1px solid $border-color;
+    background:$white;
+    margin-top: 20px;
+}
+
+.page-exam{
+    @include screenHeight;
+}
+
+.page-problems{
+    @include screenHeight;
+}
+
+.page-mycenter{
+    @include screenHeight;
+    overflow: hidden;
+
+    .wrapper{
+        overflow:hidden;
+        margin-top: 40px;
+
+        h1{
+            font-size:$font-title;
+            color:$dark;
+            font-weight: bold;
+            margin-bottom: 30px;
+            padding: 0 0 0 10px;
+        }
+    }
+}
+
+.page-member{
+    @include screenHeight;
+}
+
+.page-error{
+    @include screenHeight;
+    text-align: center;
+    padding:40px 0;
+    min-height:400px;
+
+    h1{
+        font-weight: bold;
+        color:$main-color;
+        font-size:$font-large*2;
+    }
+
+    h6{
+        font-weight: normal;
+        color:$main-color;
+        font-size:$font-normal;
+        padding:10px 0 48px;
+        text-indent: 40px;
+
+        span{
+            vertical-align: middle;
+            line-height: 22px;
+        }
+    }
+
+    em{
+        display: inline-block;
+        background:url(http://storage.xuetangx.com/public_assets/xuetangx/images/67e15384bdfc1e6a0ef337511756c7c7.error.png) no-repeat left center;
+        width: 22px;
+        height:22px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    p{
+        color:$dark;
+    }
+
+    a{
+        text-decoration: underline;
+        margin:0 5px;
+    }
+}
+

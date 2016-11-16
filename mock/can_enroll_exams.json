@@ -1,0 +1,18 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 10,
+            "name": "中华文化",
+            "exam_start": "2016-01-08T11:48:32.101125Z",
+            "exam_end": "2016-01-08T11:48:32.101125Z",
+            "fee": 222.0,
+            "exam_status": "can_makeup_enroll",
+            "user_status": "unpay",
+            "order_number" : 3123123123321,
+            "reducted" : true
+        }
+    ]
+}
